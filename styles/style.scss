@@ -1,0 +1,8 @@
+@import 'variables';
+@import 'header';
+
+.contact {
+    @extend header;
+    background-color: lightcoral;
+    height: calc(40rem - 60px);
+}

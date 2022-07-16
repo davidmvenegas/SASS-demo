@@ -1,0 +1,23 @@
+header, .contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: lightcoral;
+  background: lightblue;
+  height: 100vh;
+}
+header button, .contact button {
+  background: green;
+}
+header button:hover, .contact button:hover {
+  background: blue;
+}
+header button::after, .contact button::after {
+  content: ". Hellloooo...";
+}
+
+.contact {
+  background-color: lightcoral;
+  height: calc(40rem - 60px);
+}/*# sourceMappingURL=style.css.map */
